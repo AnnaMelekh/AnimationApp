@@ -10,7 +10,7 @@
 		D3A94116FC17B6BD1927E1E0 /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2CDC15045442740F9C9A55 /* Pods_AnimationApp.framework */; };
 		F3D61290278F60690006F3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D6128F278F60690006F3EB /* AppDelegate.swift */; };
 		F3D61292278F60690006F3EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D61291278F60690006F3EB /* SceneDelegate.swift */; };
-		F3D61294278F60690006F3EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D61293278F60690006F3EB /* ViewController.swift */; };
+		F3D61294278F60690006F3EB /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D61293278F60690006F3EB /* AnimationViewController.swift */; };
 		F3D61297278F60690006F3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D61295278F60690006F3EB /* Main.storyboard */; };
 		F3D61299278F606A0006F3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D61298278F606A0006F3EB /* Assets.xcassets */; };
 		F3D6129C278F606A0006F3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D6129A278F606A0006F3EB /* LaunchScreen.storyboard */; };
@@ -23,7 +23,7 @@
 		F3D6128C278F60690006F3EB /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D6128F278F60690006F3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D61291278F60690006F3EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3D61293278F60690006F3EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3D61293278F60690006F3EB /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		F3D61296278F60690006F3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3D61298278F606A0006F3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D6129B278F606A0006F3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,6 @@
 				D4BB9D337CBA77A08009AAAE /* Pods-AnimationApp.debug.xcconfig */,
 				6992118D456C152D20963CE4 /* Pods-AnimationApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,7 +82,7 @@
 			children = (
 				F3D6128F278F60690006F3EB /* AppDelegate.swift */,
 				F3D61291278F60690006F3EB /* SceneDelegate.swift */,
-				F3D61293278F60690006F3EB /* ViewController.swift */,
+				F3D61293278F60690006F3EB /* AnimationViewController.swift */,
 				F3D61295278F60690006F3EB /* Main.storyboard */,
 				F3D61298278F606A0006F3EB /* Assets.xcassets */,
 				F3D6129A278F606A0006F3EB /* LaunchScreen.storyboard */,
@@ -207,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D61294278F60690006F3EB /* ViewController.swift in Sources */,
+				F3D61294278F60690006F3EB /* AnimationViewController.swift in Sources */,
 				F3D61290278F60690006F3EB /* AppDelegate.swift in Sources */,
 				F3D61292278F60690006F3EB /* SceneDelegate.swift in Sources */,
 			);
