@@ -10,11 +10,7 @@ import Spring
 class AnimationViewController: UIViewController {
 
     @IBOutlet weak var infoLabel: UILabel!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+   
 
     @IBAction func runAnimationButton(_ sender: SpringButton) {
     }
